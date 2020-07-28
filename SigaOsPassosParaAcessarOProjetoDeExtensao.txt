@@ -1,0 +1,17 @@
+Acessar o repositório: https://github.com/1layner/projextensao.git.
+
+Clicar no botão Code.
+Clicar em Download ZIP.
+Descompacte o arquivo baixado.
+
+Localizar a pasta "OsSeresVivosEOMeioAmbiente".
+
+Entrar nesta pasta.
+
+OBSERVAÇÃO: PARA UTILIZAÇÃO DO JOGO NÃO É NECESSÁRIO ESTAR CONECTADO NA INTERNET.
+
+1) PARA ACESSAR O JOGO É NECESSÁRIO SOMENTE ABRIR O ARQUIVO: index.html
+
+2) OBSERVAÇÃO: DE HIPÓTESE ALGUMA EXCLUIR OU DELETAR OS ARQUIVOS DAS PASTAS: css, img, js, pages, videos.
+
+3) BOM JOGO!!
