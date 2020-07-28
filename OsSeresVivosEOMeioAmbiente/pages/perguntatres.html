@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntatres.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntatres.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Vamos lá jogador é a sua vez!!! </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg"> Vamos separar as sílabas de uma palavra? </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniTerc"> Separe as sílabas da palavra abaixo: </p>
+			</div>
+		</div><br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniQuar"> SUSTENTABILIDADE </p>
+			</div>
+		</div><br /><br />
+
+		<form name="perguntatres" id="perguntatres" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="formDiv">
+					<input type="text" id="txtum" class="formattxt" style="color: red"> - <input type="text" id="txtdois" class="formattxt" style="color: blue"> - <input type="text" id="txttres" class="formattxt" style="color: yellow"> - <input type="text" id="txtquatro" class="formattxt" style="color: green"> - <input type="text" id="txtcinco" class="formattxt" style="color: pink"> - <input type="text" id="txtseis" class="formattxt" style="color: brown"> - <input type="text" id="txtsete" class="formattxt" style="color: purple">
+				</div>
+			</div><br /> <br/ >
+			<div class="row">
+				<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<button type="submit" id="formatBotResp">Responder</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

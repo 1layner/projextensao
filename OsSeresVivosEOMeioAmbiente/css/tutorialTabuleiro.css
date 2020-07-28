@@ -1,0 +1,29 @@
+#formataCampoIni{
+	font-size: 50px;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+
+#formataCampo{
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+#formataItens{
+	font-size: 25px;
+	color: blue;
+	font-weight: bold;
+}
+
+#formataCamposTodos{
+	font-size: 25px;
+	color: blue;
+	font-weight: bold;
+}	
+
+#formataDivProxUm{
+	margin-left: 1200px;
+}

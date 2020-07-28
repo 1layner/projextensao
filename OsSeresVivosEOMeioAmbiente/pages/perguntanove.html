@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntanove.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntanove.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Vamos lá jogador!! Você conhece os animais??? </p>
+			</div>
+		</div><br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg"> Digite o nome dos respectivos animais abaixo: </p>
+			</div>
+		</div><br /><br />
+		<form name="perguntanove" id="perguntanove" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"> 
+					<img src="../img/tamanduabandForm.png" class="img-fluid" alt="Responsive image" id="formatTamandua"> <br />
+					<p id="txtTamandua"> Dica: Tenho uma lingua muito grande, para eu poder comer as minhas formigas e cupim. Já sabe quem eu sou? </p>
+					<input type="text" id="txtum" class="formattxt" style="color: brown">
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"> 
+					<img src="../img/onçapintadaForm.png" class="img-fluid" alt="Responsive image" id="formatOnca"> <br />
+					<p id="txtOnca"> Dica: Sou um animal muito bonito. Tenho várias manchinhas pelo meu corpo, e adoro comer carne. Já sabe quem sou eu? </p>
+					<input type="text" id="txtdois" class="formattxt" style="color: yellow">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

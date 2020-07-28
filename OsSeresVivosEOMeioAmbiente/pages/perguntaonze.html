@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntaonze.css"/>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>	
+	
+</head>
+<body id="fundo">
+	
+	<script src="../js/perguntaonze.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"><br />
+				<p id="formatIni"> É a sua vez jogador!! <br /> Vamos reciclar?</p>
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg">Selecione com um "X" qual o lixo que podemos jogar nesta lixeira.</p> 
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<img src="../img/lixoPlastico.png" class="img-fluid" alt="Responsive image" id="formatImg">
+			</div>
+		</div>
+		<br />
+		<form name="perguntaonze" id="perguntaonze" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">A)</b>
+					<input type="text" id="txtum">
+					<img src="../img/vidro.jpg" class="img-fluid" alt="Responsive image" id="formatVidro">
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">B)</b>
+					<input type="text" id="txtdois">
+					<img src="../img/plastico.jpg" class="img-fluid" alt="Responsive image">
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">C)</b>
+					<input type="text" id="txttres">
+					<img src="../img/organico.jpg" class="img-fluid" alt="Responsive image">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntadez.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntadez.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Vamos lá jogador, é a sua vez!! </p>
+			</div>
+		</div><br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg"> Você conhece o habitat da nossa amiga abelha ZumZum? <br /> Vamos lá, selecione com um "X" qual é a casa correta da abelha ZumZum! </p>
+			</div>
+		</div><br /><br />
+		<div class="row">
+			<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6"">
+				<img src="../img/abelhaForm.png" class="img-fluid" alt="Responsive image">
+			</div>
+		</div><br /><br />
+		<form name="perguntadez" id="perguntadez" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">A)</b>
+					<input type="text" id="txtum">
+					<img src="../img/chiqueiro.jpg" class="img-fluid" alt="Responsive image" id="formatChiqueiro">
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">B)</b>
+					<input type="text" id="txtdois">
+					<img src="../img/mata.png" class="img-fluid" alt="Responsive image" id="formatMata">
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"> 
+					<b id="alter">C)</b>
+					<input type="text" id="txttres">
+					<img src="../img/colmeiaForm.png" class="img-fluid" alt="Responsive image" id="formatColmeia">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

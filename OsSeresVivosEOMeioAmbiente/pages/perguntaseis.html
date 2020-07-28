@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntaseis.css"/>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>	
+	
+</head>
+<body id="fundo">
+	
+	<script src="../js/perguntaseis.js"></script>
+
+	<br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> É a sua vez jogador!! <br /> Vamos reciclar?</p>
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg">Relacione as duas colunas, de acordo com sua respectiva lixeira reciclável:</p> 
+			</div>
+		</div>
+		<br />
+		<form name="perguntaseis" id="perguntaseis" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<b id="num">(1)</b> <img src="../img/plastico.jpg" class="img-fluid" alt="Responsive image" id="formatImg">
+					<br /><br />
+					<b id="num">(2)</b> <img src="../img/organico.jpg" class="img-fluid" alt="Responsive image" id="formatImg">
+					<br /><br />
+					<b id="num">(3)</b> <img src="../img/metal.png" class="img-fluid" alt="Responsive image" id="formatImg">
+					<br /><br />
+					<b id="num">(4)</b> <img src="../img/vidro.jpg" class="img-fluid" alt="Responsive image" id="formatImg">
+					<br /><br />
+					<b id="num">(5)</b> <img src="../img/papel.jpg" class="img-fluid" alt="Responsive image" id="formatImg">
+					<br /><br />
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<div id="arrumaDiv">
+						<input type="text" id="txtum" class="formattxt"> <img src="../img/lixoPapel.png" class="img-fluid" alt="Responsive image">
+						<br /><br />
+						<input type="text" id="txtdois" class="formattxt"> <img src="../img/lixoPlastico.png" class="img-fluid" alt="Responsive image">
+						<br /><br />
+						<input type="text" id="txttres" class="formattxt"> <img src="../img/lixoVidro.png" class="img-fluid" alt="Responsive image">
+						<br /><br />
+						<input type="text" id="txtquatro" class="formattxt"> <img src="../img/lixoMetal.png" class="img-fluid" alt="Responsive image">
+						<br /><br />
+						<input type="text" id="txtcinco" class="formattxt"> <img src="../img/lixoOrganico.png" class="img-fluid" alt="Responsive image">
+						<br /><br />
+					</div>
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<button type="submit" id="formatBotResp">Responder</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

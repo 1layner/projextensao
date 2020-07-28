@@ -1,0 +1,76 @@
+#formTitulo {
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: oblique;
+	color: rgb(18,79,169);
+	text-align: center;
+}
+
+#formBotao {
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: orange;
+	border: none;
+	border-style: outset;
+	border-radius: 30px;
+}
+
+#formBotao:hover {
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: blue;
+	border: none;
+	border-style: outset;
+	border-radius: 30px;
+}
+
+#botaoSim {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: oblique;
+	border-radius: 30px;
+	border-color: rgb(92,192,67);
+	border-style: ridge;
+	border-width: 15px;
+	background-color: #1E90FF;
+	color: #006400;
+}
+
+#botaoSim:hover {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: oblique;
+	border-radius: 30px;
+	border-color: #1E90FF;
+	border-style: outset;
+	border-width: 15px;
+	background-color: rgb(92,192,67);
+	color: #191970;
+}
+
+#botaoNao {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: oblique;
+	border-radius: 30px;
+	border-color: rgb(92,192,67);
+	border-style: ridge;
+	border-width: 15px;
+	background-color: #1E90FF;
+	color: #006400;
+}
+
+#botaoNao:hover {
+		font-size: 25px;
+	font-weight: bold;
+	font-style: oblique;
+	border-radius: 30px;
+	border-color: #1E90FF;
+	border-style: outset;
+	border-width: 15px;
+	background-color: rgb(92,192,67);
+	color: #191970;
+}

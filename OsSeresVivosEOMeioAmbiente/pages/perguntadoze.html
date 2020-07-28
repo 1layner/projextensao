@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntadoze.css"/>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>	
+	
+</head>
+<body id="fundo">
+	
+	<script src="../js/perguntadoze.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"><br />
+				<p id="formatIni"> Vamos lá jogador é a sua vez!!</p>
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg">Eu tenho certeza que você irá acertas estas subtrações:</p> 
+			</div>
+		</div>
+		<br />
+		<form name="perguntadoze" id="perguntadoze" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="offset-sm-3 col-sm-8 col-md-8 col-lg-8 col-xl-8"> 
+					<img src="../img/subum.png" class="img-fluid" alt="Responsive image">
+					<input type="text" id="txtum">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-2 col-sm-8 col-md-8 col-lg-8 col-xl-8"> 
+					<img src="../img/subdois.png" class="img-fluid" alt="Responsive image">
+					<input type="text" id="txtdois">
+				</div>
+			</div>	<br />
+			<div class="row">			
+				<div class="offset-sm-2 col-sm-8 col-md-8 col-lg-8 col-xl-8"> 
+					<img src="../img/subtres.png" class="img-fluid" alt="Responsive image">
+					<input type="text" id="txttres">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

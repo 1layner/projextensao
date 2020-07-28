@@ -1,0 +1,70 @@
+#formatIni {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#videoquestion {
+	text-align: center;
+}	
+
+#formatPerg {
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
+
+#alter {
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
+
+#campoNumerico {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#campoExtenso {
+	width: 500px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#resp {
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+}
+
+#formatBotResp {
+	width: 600px;
+	height: 60px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border: none;
+	border-radius: 15px;
+}
+
+#formatBotResp:hover {
+	width: 600px;
+	height: 60px;
+	color: rgb(92, 192, 67);
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border-radius: 15px;
+}
+

@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntaoito.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntaoito.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Vamos lá jogador é a sua Vez! <br />
+				Você conhece as partes de uma arvore? <br />
+				Tenho certeza que sim!! Vamos lá, você irá acertar esta! </p>
+			</div>
+		</div><br />	
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg"> Qual o nome das partes demarcadas em <b>vermelho</b>? </p>
+			</div>
+		</div><br />
+
+		<div class="row">
+			<div class="offset-sm-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<img src="../img/partesarvoreForm.png" class="img-fluid" alt="Responsive image" id="formatArvore">
+			</div>
+		</div>
+		<br />
+		<form name="perguntaoito" id="perguntaoito" onsubmit="return validaResposta(this)">
+			<div id="row">
+				<div class="offset-sm-1 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+					<input type="text" id="txtum" class="formattxt"> <b id="formate">e</b> <input type="text" class="formattxt" id="txtdois">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

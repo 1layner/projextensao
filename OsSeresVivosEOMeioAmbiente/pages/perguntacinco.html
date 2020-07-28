@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntacinco.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntacinco.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Vamos lá jogador!! Você conhece os animais??? </p>
+			</div>
+		</div><br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg"> Digite o nome dos respectivos animais abaixo: </p>
+			</div>
+		</div><br /><br />
+		<form name="perguntacinco" id="perguntacinco" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"> 
+					<img src="../img/macacoForm.png" class="img-fluid" alt="Responsive image" id="formatMacaco"> <br />
+					<p id="txtMacaco"> Dica: Eu gosto de pular de árvore em árvore, e amo comer banana. Já sabe quem sou eu? </p>
+					<input type="text" id="txtum" class="formattxt" style="color: brown">
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"> 
+					<img src="../img/tartarugaForm.png" class="img-fluid" alt="Responsive image" id="formatTartaruga"> <br />
+					<p id="txtTartaruga"> Dica: Sou um animal lento, e que gosta de ficar tanto na água quanto fora da água. Já sabe quem sou eu? </p>
+					<input type="text" id="txtdois" class="formattxt" style="color: green">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

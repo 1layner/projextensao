@@ -1,0 +1,67 @@
+#formatIni {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#formatIniSeg{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#txtum{
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#txtdois{
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#txttres{
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#formatBotResp {
+	width: 600px;
+	height: 60px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border: none;
+	border-radius: 15px;
+}
+
+#formatBotResp:hover {
+	width: 600px;
+	height: 60px;
+	color: rgb(92, 192, 67);
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border-radius: 15px;
+}

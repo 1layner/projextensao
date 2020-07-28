@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntaquatro.css"/>
+</head>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>
+
+<body id="fundo">
+
+	<script src="../js/perguntaquatro.js"></script>
+
+	<br /><br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIni"> Olá jogador, eu tenho certeza que essa você irá tirar de letra!!! </p>
+			</div>
+		</div><br /><br />	
+		<div class="row">
+			<div class="offset-sm-1 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+				<img src="../img/paulaForm.png" class="img-fluid" alt="Responsive image" id="formatPaula">
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<p id="formatIniSeg"> Gustavo é piscicultor, ou seja, ele trabalha com criação de peixes. Atualmente em um tanque ele cria 99 peixes. Em um certo dia ele viu que os seus filhos Antônio e Paula, estavam fazendo os seus deveres de casas sobre antecessor e sucessor e estavam com dúvidas referentes a atividade. Então Gustavo sentou ao lado dos seus filhos para  explicar o que era o número antecessor e o número sucessor e perguntou para eles, qual o antecessor e sucessor do número 99? </p>
+			</div>
+		</div><br /><br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniTerc"> Ihhhh jogador e agora? <br /> Vamos ajudar o Antônio e a Paula a descobrir qual o antecessor e o sucessor do número 99? </p>
+			</div>
+		</div><br /><br/ >
+
+		<div class="row">
+			<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<img src="../img/antonioForm.png" class="img-fluid" alt="Responsive image" id="formatAntonio">
+			</div>
+
+			<form name="perguntaquatro" id="perguntaquatro" onsubmit="return validaResposta(this)">
+				<div id="formatCampos">
+					<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<input type="text" id="txtum" class="formattxt"> <img src="../img/setinhaForm.png" class="img-fluid" alt="Responsive image" id="formatSeta"> <input type="text" class="formattxt" value=99 disabled>
+						<img src="../img/setinhaForm.png" class="img-fluid" alt="Responsive image" id="formatSeta"> <input type="text" id="txtdois" class="formattxt">
+					</div>
+				</div>
+				<div class="row" id="recolocaBotao">
+					<input type="submit" id="formatBotResp" value="Responder">
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

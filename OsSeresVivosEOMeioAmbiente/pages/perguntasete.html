@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntasete.css"/>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>	
+	
+</head>
+<body id="fundo">
+	
+	<script src="../js/perguntasete.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"><br />
+				<p id="formatIni"> É a sua vez jogador!! <br /> Você conhece as lixeiras de reciclagem? <br /> Ah, eu tenho certeza que SIM!</p>
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formatIniSeg">A lixeira abaixo é para jogar qual tipo de lixo?</p> 
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<img src="../img/lixoNaoOrganico.png" class="img-fluid" alt="Responsive image" id="formatImg">
+			</div>
+		</div>
+		<br />
+		<form name="perguntasete" id="perguntasete" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="offset-sm-3 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<b id="formatatxtini">Lixo </b><input type="text" id="formattxt">
+				</div>
+			</div><br />
+			<div class="row">
+				<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<button type="submit" id="formatBotResp">Responder</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

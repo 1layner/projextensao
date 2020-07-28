@@ -1,0 +1,34 @@
+#formataCampoIni{
+	font-size: 50px;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+
+#formataCampo{
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+#formatBotResp {
+	width: 600px;
+	height: 60px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border: none;
+	border-radius: 15px;
+}
+
+#formatBotResp:hover {
+	width: 600px;
+	height: 60px;
+	color: rgb(92, 192, 67);
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border-radius: 15px;
+}

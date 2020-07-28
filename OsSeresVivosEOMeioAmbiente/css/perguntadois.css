@@ -1,0 +1,76 @@
+#formataPrimText {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: orange;
+}
+
+#formataSegText{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#formataItensText{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	color: blue;
+}
+
+#formataTabelas{
+	border: 3px solid;
+}
+
+#formatText{
+	font-size: 15px;
+}
+
+.formataCampos{
+	width: 65px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;		
+	text-align: center;
+}
+
+#formataCampos{
+	width: 65px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;		
+	text-align: center;
+}
+
+#formatText{
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+#formatBotResp {
+	width: 600px;
+	height: 60px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border: none;
+	border-radius: 15px;
+}
+
+#formatBotResp:hover {
+	width: 600px;
+	height: 60px;
+	color: rgb(92, 192, 67);
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border-radius: 15px;
+}
+
+#formataimagens{
+	width: 300px;
+	height: 300px;
+}
+

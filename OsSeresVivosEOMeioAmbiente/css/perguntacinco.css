@@ -1,0 +1,68 @@
+#formatIni{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#formatIniSeg{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#formatMacaco{
+	margin-left: 210px;
+}
+
+#txtMacaco{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+#formatTartaruga{
+	margin-top: 106px;
+	margin-left: 180px;
+}
+
+#txtTartaruga{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: blue;	
+}
+
+.formattxt{
+	width: 530px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border: 3px solid;
+	border-color: orange;
+}
+
+#formatBotResp {
+	width: 600px;
+	height: 60px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border: none;
+	border-radius: 15px;
+}
+
+#formatBotResp:hover {
+	width: 600px;
+	height: 60px;
+	color: rgb(92, 192, 67);
+	font-weight: bold;
+	font-size: 25px;
+	background-color: orange;
+	border-radius: 15px;
+}
+

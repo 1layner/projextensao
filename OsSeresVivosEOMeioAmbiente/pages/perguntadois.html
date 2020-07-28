@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title> PERGUNTA </title>
+	<meta Http-Equiv="Cache-Control" Content="no-cache">  
+	<meta Http-Equiv="Pragma" Content="no-cache">  
+	<meta Http-Equiv="Expires" Content="0">
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/perguntadois.css"/>
+
+<style>
+#fundo {
+	background-color: rgb(92, 192, 67);
+}
+</style>	
+	
+</head>
+<body id="fundo">
+	
+	<script src="../js/perguntadois.js"></script>
+
+	<br />
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p id="formataPrimText"> Vamos lá jogador, tenho certeza que você acertará este problema!!!</p>
+				<p id="formataSegText"> O Senhor Gilberto mora com a sua família em uma fazenda muito grande. A sua esposa se chama Giselle e o seus filhos Maria e André. Na fazenda do senhor Gilberto possui um espaço onde possui 35 grandes árvores. Em uma manhã de sexta-feira o senhor Gilberto acordou muito animado, e perguntou se a sua família gostaria de plantar novas árvores na fazenda, e todos acharam uma boa ideia, pois iriam ajudar o meio ambiente. Com isso:  </p>
+				<li id="formataItensText">O senhor Gilberto plantou 3 árvores.</li>
+				<li id="formataItensText">A Gisella plantou 2 árvores.</li>
+				<li id="formataItensText">E André e Maria plantaram 1 árvores cada um.</li>
+				<p id="formataSegText">Qual o total de árvores que o espaço irá conter?</p>
+			</div>
+		</div><br /><br />
+		<form name="perguntadois" id="perguntadois" onsubmit="return validaResposta(this)">
+			<div class="row">
+				<div class="offset-sm-2 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+					<table id="formataTabelas">
+						<thead>
+							<tr  id="formataTabelas">
+								<th></th>
+								<th id="formataTabelas"> <b id="formatText">D</b> </th>
+								<th id="formataTabelas"> <b id="formatText">U</b> </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr id="formataTabelas">
+								<td id="formataTabelas"></td>
+								<td>
+									<input type="text" id="txtum" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtdois" class="formataCampos">
+								</td>
+							</tr>
+							<tr>
+								<td id="formataTabelas"></td>
+								<td>
+									<input type="text" id="txttres" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtquatro" class="formataCampos">
+								</td>
+							</tr>
+							<tr>
+								<td id="formataTabelas"></td>
+								<td id="formataTabelas">
+									<input type="text" id="txtcinco" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtseis" class="formataCampos">
+								</td>
+							</tr>
+							<tr>
+								<td id="formataTabelas"></td>
+								<td id="formataTabelas">
+									<input type="text" id="txtsete" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtoito" class="formataCampos">
+								</td>
+							</tr>
+							<tr>
+								<td id="formataTabelas">
+									<input type="text" id="txtnove" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtdez" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txtonze" class="formataCampos">
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td id="formataTabelas">
+									<input type="text" id="txtdoze" class="formataCampos">
+								</td>
+								<td id="formataTabelas">
+									<input type="text" id="txttreze" class="formataCampos">
+								</td>
+							</tr>
+						</tbody>
+					</table><br /><br /><br />
+				</div>
+				<div class="col-sm-5 col-md-5 col-lg-5 col-xl-5">
+					<img src="../img/plantacaoarvore.jpg" class="img-fluid" alt="Responsive image" id="formataimagens">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="offset-sm-5 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					<button type="submit" id="formatBotResp">Responder</button>	
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
